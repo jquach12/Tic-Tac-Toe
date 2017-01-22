@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D71425771E17CF7C00D2F2F6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D71425761E17CF7C00D2F2F6 /* main.cpp */; };
+		D714257F1E17D10100D2F2F6 /* TTTBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D714257E1E17D10100D2F2F6 /* TTTBoard.cpp */; };
+		D7BCA0891E18BAAB0006603C /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7BCA0881E18BAAB0006603C /* Player.cpp */; };
+		D7BCA08C1E18E5870006603C /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7BCA08B1E18E5870006603C /* Game.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D71425711E17CF7C00D2F2F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D71425731E17CF7C00D2F2F6 /* TicTacToeRevised */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TicTacToeRevised; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71425761E17CF7C00D2F2F6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D714257D1E17CF8C00D2F2F6 /* TTTBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTBoard.h; sourceTree = "<group>"; };
+		D714257E1E17D10100D2F2F6 /* TTTBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TTTBoard.cpp; sourceTree = "<group>"; };
+		D7BCA0871E18BA270006603C /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		D7BCA0881E18BAAB0006603C /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		D7BCA08A1E18E4D10006603C /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		D7BCA08B1E18E5870006603C /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D71425701E17CF7C00D2F2F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D714256A1E17CF7C00D2F2F6 = {
+			isa = PBXGroup;
+			children = (
+				D714257E1E17D10100D2F2F6 /* TTTBoard.cpp */,
+				D714257D1E17CF8C00D2F2F6 /* TTTBoard.h */,
+				D7BCA0871E18BA270006603C /* Player.h */,
+				D7BCA0881E18BAAB0006603C /* Player.cpp */,
+				D7BCA08A1E18E4D10006603C /* Game.h */,
+				D7BCA08B1E18E5870006603C /* Game.cpp */,
+				D71425751E17CF7C00D2F2F6 /* TicTacToeRevised */,
+				D71425741E17CF7C00D2F2F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D71425741E17CF7C00D2F2F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D71425731E17CF7C00D2F2F6 /* TicTacToeRevised */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D71425751E17CF7C00D2F2F6 /* TicTacToeRevised */ = {
+			isa = PBXGroup;
+			children = (
+				D71425761E17CF7C00D2F2F6 /* main.cpp */,
+			);
+			path = TicTacToeRevised;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D71425721E17CF7C00D2F2F6 /* TicTacToeRevised */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D714257A1E17CF7C00D2F2F6 /* Build configuration list for PBXNativeTarget "TicTacToeRevised" */;
+			buildPhases = (
+				D714256F1E17CF7C00D2F2F6 /* Sources */,
+				D71425701E17CF7C00D2F2F6 /* Frameworks */,
+				D71425711E17CF7C00D2F2F6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicTacToeRevised;
+			productName = TicTacToeRevised;
+			productReference = D71425731E17CF7C00D2F2F6 /* TicTacToeRevised */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D714256B1E17CF7C00D2F2F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = QuachLabs;
+				TargetAttributes = {
+					D71425721E17CF7C00D2F2F6 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D714256E1E17CF7C00D2F2F6 /* Build configuration list for PBXProject "TicTacToeRevised" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D714256A1E17CF7C00D2F2F6;
+			productRefGroup = D71425741E17CF7C00D2F2F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D71425721E17CF7C00D2F2F6 /* TicTacToeRevised */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D714256F1E17CF7C00D2F2F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71425771E17CF7C00D2F2F6 /* main.cpp in Sources */,
+				D714257F1E17D10100D2F2F6 /* TTTBoard.cpp in Sources */,
+				D7BCA0891E18BAAB0006603C /* Player.cpp in Sources */,
+				D7BCA08C1E18E5870006603C /* Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D71425781E17CF7C00D2F2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D71425791E17CF7C00D2F2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D714257B1E17CF7C00D2F2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D714257C1E17CF7C00D2F2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D714256E1E17CF7C00D2F2F6 /* Build configuration list for PBXProject "TicTacToeRevised" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71425781E17CF7C00D2F2F6 /* Debug */,
+				D71425791E17CF7C00D2F2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D714257A1E17CF7C00D2F2F6 /* Build configuration list for PBXNativeTarget "TicTacToeRevised" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D714257B1E17CF7C00D2F2F6 /* Debug */,
+				D714257C1E17CF7C00D2F2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D714256B1E17CF7C00D2F2F6 /* Project object */;
+}
